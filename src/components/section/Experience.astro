@@ -1,9 +1,10 @@
 ---
 import Section from "@/components/Section.astro";
 import { work } from "@/cv.json";
+import { volunteer } from "@/cv.json";
 ---
 
-<Section title="Experience">
+<Section title="Experiencia">
   <ul>
     {
       work.map(
@@ -25,6 +26,42 @@ import { work } from "@/cv.json";
                 </header>
                 <footer>
                   <p>{summary}</p>
+                  <br />
+                  <p>{highlights}</p>
+                </footer>
+              </article>
+            </li>
+          );
+        },
+      )
+    }
+  </ul>
+</Section>
+
+<Section title="Volunteer">
+  <ul>
+    {
+      volunteer.map(
+        ({ organization, position, startDate, endDate, summary, highlights }) => {
+          const starYear = new Date(startDate).getFullYear();
+          const endYear =
+            endDate !== null ? new Date(endDate).getFullYear() : "Actual";
+          const years = ` ${starYear} - ${endYear}`;
+
+          return (
+            <li>
+              <article>
+                <header>
+                  <div>
+                    <h3>{organization}</h3>
+                    <h4>{position}</h4>
+                  </div>
+                  <time datetime="">{years}</time>
+                </header>
+                <footer>
+                  <p>{summary}</p>
+                  <br />
+                  <p>{highlights}</p>
                 </footer>
               </article>
             </li>

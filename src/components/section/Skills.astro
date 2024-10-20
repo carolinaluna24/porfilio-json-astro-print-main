@@ -1,33 +1,70 @@
 ---
 import Section from "@/components/Section.astro";
 import { skills } from "@/cv.json";
+import { languages } from "@/cv.json";
+import { interests } from "@/cv.json";
 ---
 
 <Section title="Habilidades">
   <ul>
     {
-      skills.map(({ name }) => (
+      skills.map(({ name, image }) => (
         <li>
+          <br />
           <span>{name}</span>
+          <br />
+          <img src={image} alt={name} />
+          <br />
         </li>
       ))
     }
   </ul>
+  <br />
+  <Section title="Idiomas">
+    <ul>
+      {
+        languages.map(({ language }) => (
+          <li>
+            <span>{language}</span>
+          </li>
+        ))
+      }
+    </ul>
+  </Section>
+  <br />
+  <Section title="Intereses">
+    <ul>
+      {
+        interests.map(({ name }) => (
+          <li>
+            <span>{name}</span>
+          </li>
+        ))
+      }
+    </ul>
+  </Section>
+
+  <style>
+    img {
+      max-width: 25vw; /* Ocupa como máximo el 25% del ancho de la pantalla */
+      height: auto;
+      object-fit: contain;
+      border-radius: 8px;
+    }
+
+    ul {
+      display: inline-flex;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+    li {
+      border-radius: 6px;
+      background: #eee;
+      color: black;
+      font-size: 0.8rem;
+      font-weight: 500;
+      padding: 0.2rem 0.6rem;
+    }
+  </style>
 </Section>
-
-<style>
-  ul {
-    display: inline-flex;
-    gap: 8px;
-    flex-wrap: wrap;
-  }
-
-  li {
-    border-radius: 6px;
-    background: #eee;
-    color: black;
-    font-size: 0.8rem;
-    font-weight: 500;
-    padding: 0.2rem 0.6rem;
-  }
-</style>

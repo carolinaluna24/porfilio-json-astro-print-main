@@ -1,33 +1,55 @@
 ---
-import Section from "@/components/Section.astro"
+import Section from "@/components/Section.astro";
 import { education } from "@/cv.json";
 ---
 
-<Section title="Education">
+<Section title="Educación">
   <ul>
     {
       education.map(
-        ({ institution, area, studyType, startDate, endDate, url, courses }) => {
-          const starYear = new Date(startDate).getFullYear();
+        ({
+          image,
+          institution,
+          area,
+          studyType,
+          startDate,
+          endDate,
+          url,
+          courses,
+        }) => {
+          const startYear = new Date(startDate).getFullYear();
           const endYear =
             endDate !== null ? new Date(endDate).getFullYear() : "Actual";
-          const years = ` ${starYear} - ${endYear}`;
+          const years = ` ${startYear} - ${endYear}`;
 
           return (
             <li>
               <article>
                 <header>
-                  <div>
-                    <h3><a href={url} target="_blank" rel="noopener noreferrer">{institution}</a></h3>
-                    <h4>{area} - {studyType}</h4>
+                  <div class="education-header">
+                    <img
+                      src={image}
+                      alt={institution}
+                      class="institution-img"
+                    />
+                    <div class="institution-info">
+                      <h3>
+                        <a href={url} target="_blank" rel="noopener noreferrer">
+                          {institution}
+                        </a>
+                      </h3>
+                      <h4>
+                        {area} - {studyType}
+                      </h4>
+                    </div>
                   </div>
                   <time datetime="">{years}</time>
                 </header>
                 {courses.length > 0 && (
                   <section>
-                    <h5>Courses:</h5>
+                    <h5>Cursos:</h5>
                     <ul>
-                      {courses.map(course => (
+                      {courses.map((course) => (
                         <li>{course}</li>
                       ))}
                     </ul>
@@ -43,6 +65,13 @@ import { education } from "@/cv.json";
 </Section>
 
 <style>
+  img {
+    max-width: 25vw; /* Ocupa como máximo el 25% del ancho de la pantalla */
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+
   ul {
     display: flex;
     flex-direction: column;
@@ -63,10 +92,46 @@ import { education } from "@/cv.json";
     justify-content: space-between;
     align-items: flex-start;
     margin-bottom: 4px;
+    flex-wrap: wrap;
   }
 
-  time{
+  .education-header {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .institution-img {
+    max-width: 25vw; /* Ocupa como máximo el 25% del ancho de la pantalla */
+    height: auto;
+    object-fit: contain;
+    border-radius: 8px;
+  }
+
+  .institution-info {
+    display: flex;
+    flex-direction: column;
+  }
+
+  time {
     color: #555;
     font-size: 0.85rem;
+  }
+
+  @media (max-width: 768px) {
+    .education-header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .institution-img {
+      max-width: 50vw; /* Para pantallas más pequeñas, puede ocupar hasta el 50% */
+    }
+  }
+
+  @media (max-width: 480px) {
+    .institution-img {
+      max-width: 75vw; /* Para pantallas muy pequeñas, hasta el 75% */
+    }
   }
 </style>

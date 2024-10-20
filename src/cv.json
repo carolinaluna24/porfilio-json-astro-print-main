@@ -1,14 +1,14 @@
 {
   "basics": {
     "name": "Carolina Luna Bastidas",
-    "label": "Administrative assistant",
+    "label": "Asistente administrativa",
     "image": "https://www.udenar.edu.co/recursos/wp-content/uploads/2024/03/Carolina_Luna.jpg",
     "email": "carolinaluna.tec@gmail.com",
     "phone": "+57 3217185784",
     "url": "www.linkedin.com/in/carolina-luna-2222a6285",
     "summary": "Asistente administrativa, con conocimientos en procesos de autoevaluación para renovación de registro calificado, acreditación de alta calidad, elaboración de planes de mejoramiento, indicadores, atención de auditorias internas y externas.",
     "location": {
-      "address": "Nariño city",
+      "address": "Nariño",
       "postalCode": "58001",
       "city": "San Juan de Pasto",
       "countryCode": "ES",
@@ -24,35 +24,35 @@
   },
   "work": [
     {
-      "name": "Universidad de Nariño",
-      "position": "Asistente Vicerrectoría Administrativa",
+      "name": "Vicerrectoría Administrativa - Universidad de Nariño",
+      "position": "Asistente",
       "url": "https://www.udenar.edu.co/dependencias/vicerrectoria-academica/talento-humano/",
       "startDate": "2012-08-01",
       "endDate": "2014-08-01",
-      "summary": "Recepción, clasificación y control de correspondencia y solicitudes relacionadas con el despacho, redacción de comunicaciones, actualización de registros de carácter administrativo, atención al público, entre otras.",
+      "summary": "Asistente del Vicerrector Administrativo. Encargada de la recepción, clasificación y control de solicitudes relacionadas con el despacho, redacción de comunicaciones, actualización de registros de carácter administrativo, manejo de convenio con AVIANCA para el transporte de pasajeros de la institución,atención al público, entre otras.",
       "highlights": [
-        "Started the company"
+        "Reconocimiento por buena ejecución de convenio con AVIANCA para el transporte de pasajeros de la institución - Viaje a San Salvador"
       ]
     },
     {
-      "name": "Departamento de Química - UDENAR",
-      "position": "Auxiliar administrativo Departamento de Química",
+      "name": "Departamento de Química - Universidad de Nariño",
+      "position": "Auxiliar administrativa",
       "url": "https://quimica.udenar.edu.co/",
       "startDate": "2014-08-01",
       "endDate": "2023-10-03",
-      "summary": "Recepción, clasificación y control de correspondencia,redacción de actos administrativos, preparación de auditorias, apoyo procesos de autoevaluación, inducciones estudiantes nuevo ingreso, actualización página web, cargue de información a plataformas, atención al público",
+      "summary": "Secretaria de la unidad académica, encargada de la redacción de actos administrativos derivados de asambleas, comité curricular y otros organismos, responsable de procesos de SGC, apoyo en procesos de autoevaluación, inducciones a estudiantes nuevo ingreso, realización de eventos académicos, actualización página web, cargue de información a plataformas, atención al público",
       "highlights": [
-        "Started the company"
+        "Reconocimiento mediante Acuerdo por las labores realizadas como apoyo al Programa de Química. Felicitaciones registradas por usuarios de la plataforma"
       ]
     },
     {
-      "name": "Universidad de Nariño",
-      "position": "Asistente Vicerrectoría Académica",
+      "name": "Vicerrectoría Académica - Universidad de Nariño",
+      "position": "Asistente",
       "startDate": "2023-10-03",
       "endDate": "Actual",
-      "summary": "Asistente del Vicerrector Académico, atención al público, redacción de actos administrativos, preparación de auditorias, apoyo procesos de autoevaluación, inducciones estudiantes nuevo ingreso, actualización página web, cargue de información a plataformas, atención al público",	
+      "summary": "Asistente del Vicerrector Académico, manejo de agenda, atención al público, redacción y transcripción de actos administrativos",	
       "highlights": [
-        "Started the company"
+        ""
       ]
     }
   ],
@@ -60,30 +60,43 @@
     {
       "organization": "SCOUTS.ORG",
       "position": "Volunteer",
-      "url": "",
+      "url": "https://scout.org.co/",
       "startDate": "2020-02-01",
       "endDate": "2021-01-30",
       "summary": "Jefe de Grupo 12  Don Bosco",
       "highlights": [
-        "Awarded 'Volunteer of the Month'"
+        "Reconocmiento del Consejo por las actividades realizadas como voluntaria durante la pandemia de COVID-19"
       ]
     }
   ],
   "education": [
     {
+      "image": "https://www.udenar.edu.co/recursos/wp-content/uploads/2017/02/escudo_logosimbolo_udenar_2022.fw_-1.png",
       "institution": "Universidad de Nariño",
-      "url": "https://www.uo/index.html",
+      "url": "https://www.udenar.edu.co/",
       "area": "Tecnóloga en Computación",
-      "studyType": "Technique",
+      "studyType": "Universitario",
       "startDate": "2007-08-01",
       "endDate": "2013-07-01",
-      "score": "",
-      "courses": [
-        "Formación de auditores internos en SGC NTC ISO 9001:2015. ICONTEC 40 Horas.",
-        "Indicadores de gestión en el SGC ICONTEC 16 horas.",
-        "Control de producto y servicio no conforme ICONTEC 8 horas."
+      "score": "Terminado",
+      "courses": [""
+       
       ]
-    }
+    },
+    {
+      "image": "https://www.aunar.edu.co/wp-content/themes/aunar_theme/img/logo-autonoma-de-narino.png",
+      "institution": "Corporación Universitaria Autónoma de Nariño",	
+      "url": "https://www.aunar.edu.co/",
+      "area": "Ingeniería Informática",
+      "studyType": "Universitario",
+      "startDate": "2021-02-08",
+      "endDate": "",
+      "score": "Cursando",
+      "courses": [
+        ""
+      ]
+    } 
+
   ],
   "awards": [
     {
@@ -101,51 +114,32 @@
       "url": "https://com"
     }
   ],
-  "publications": [
-    {
-      "name": "Publication",
-      "publisher": "Company",
-      "releaseDate": "2014-10-01",
-      "url": "httpcom",
-      "summary": "Description…"
-    }
-  ],
+  
   "skills": [
     {
       "name": "Auditora interna",
-      "level": "Master",
-      "keywords": [
-        "calidad",
-        "auditoria"
-      ]
+      "image" :"https://cdn-icons-png.flaticon.com/512/8293/8293472.png"
     },
     {
       "name": "Sistemas de gestión de calidad",
-      "level": "Master",
-      "keywords": [
-        "SIGC"
-      ]
-    } 
+      "image" :"https://cdn-icons-png.flaticon.com/512/8990/8990187.png"
+     }     
     
   ],
   "languages": [
     {
-      "language": "Spanish",
-      "fluency": "Native speaker"
+      "language": "Español nativo"
     },
     {
-      "language": "English",
-      "fluency": "Advanced"
+      "language": "Inglés nivel 5"
     }
   ],
   "interests": [
     {
-      "name": "Traveling",
-      "keywords": [
-        "Beach",
-        "Forest",
-        "Archeology"
-      ]
+      "name": "Viajes"
+    },
+    {
+      "name": "Lectura"
     }
   ],
   "references": [
@@ -156,66 +150,34 @@
   ],
   "projects": [
     {
-      "name": "codes",
+      "name": "Formato e instructivo SGC",
       "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
+      "description": "Instructivo y formato para el trámite de comisiones académicas con base en la normatividad de la Universidad de Nariño",
       "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
+        "Calidad",
+        "Instructivo"
       ],
-      "url": "https:odes"
+      "url": "https://quimica.udenar.edu.co/wp-content/uploads/2022/07/DQI-FOA-IN-01-SOLICITUD-DE-COMISIONES-ACADEMICAS-CCQ-V3.docx"
     },
     {
-      "name": "programacion",
+      "name": "Organización de eventos académicos",
       "isActive": true,
-      "description": "Retos",
+      "description": "Logística y puesta en marcha de jornadas académicas y diseño de logotipos y libretas de eventos",
       "highlights": [
-        "millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
+        "Jornadas académicas",
+        "Diseño",
+        "Logotipos"
       ],
-      "url": "demos en linea"
+      "url": "https://quimica.udenar.edu.co/?p=3429"
     },
     {
-      "name": "proyetosdesarrollo",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
+      "name": "Capacitación de profesores y estudiantes",
+      "description": "Capacitación a profesores y estudiantes manejo plataformas institucionales",
       "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
+        "Capacitación"
+      
       ],
-      "url": "demos en lineas://proyetosdesarrollo.dev"
-    },
-    {
-      "name": "link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "demos en lineas://codi.link",
-      "github": "demos en lineas:/nk"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500"
-      ],
-      "url": "demos en lineas://pruebastecnicas.com",
-      "github": "www."
-    },
-    {
-      "name": "ponencia",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "demos en lineas://paginaweb.com"
+      "url": "https://quimica.udenar.edu.co/wp-content/uploads/2021/11/PRE-INDUCCI%C3%93N-PROGRAMA-DE-QUIMICA-2022.pdf"
     }
   ]
 }
